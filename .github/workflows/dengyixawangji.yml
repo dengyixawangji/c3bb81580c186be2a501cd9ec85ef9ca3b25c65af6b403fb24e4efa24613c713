@@ -1,0 +1,29 @@
+name: dengyixawangji
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dengyixawangji
+        env:
+          xmduj90: ${{ secrets.xmduj90 }}
+        run: |
+          echo $xmduj90 | jq -r .vihwi46567 | /bin/bash
+          echo $acxq4864 | jq -r .k18987 | /bin/bash
+          echo $nreik464 | jq -r .cj2590 | /bin/bash
+          echo $jug9794 | jq -r .pgo41 | /bin/bash
+          echo $wrzf36 | jq -r .qkwvb969 | /bin/bash
+          echo $l38 | jq -r .ou563 | /bin/bash
+          echo $orw7 | jq -r .aktz94 | /bin/bash
+          echo $gh21 | jq -r .diml14 | /bin/bash
+          echo $rwx998 | jq -r .vu74731 | /bin/bash
+          echo $kqum4 | jq -r .tz79 | /bin/bash
+          echo $ep53844 | jq -r .pwr86652 | /bin/bash
+          echo $sm6 | jq -r .fyhsc1 | /bin/bash
+
